@@ -12,7 +12,7 @@ def solve_quadratic(a, b, c):
         x2 = (-b - math.sqrt(discriminant)) / (2*a)
         return x1, x2
 
-# Example usage:
+
 a, b, c = 1, -3, 2
 quadratic_result = solve_quadratic(a, b, c)
 quadratic_result

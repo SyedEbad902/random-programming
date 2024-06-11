@@ -1,6 +1,5 @@
 # Restaurant Order Management System
 
-# Menu dictionary
 menu = {
     "Pizza": 8.99,
     "Burger": 5.49,
@@ -9,13 +8,11 @@ menu = {
     "Soda": 1.99
 }
 
-# Function to display the menu
 def display_menu():
     print("Menu:")
     for item, price in menu.items():
         print(f"{item}: ${price:.2f}")
 
-# Function to add an item to the order
 def add_to_order(order, item, quantity):
     if item in menu:
         if item in order:
@@ -26,7 +23,6 @@ def add_to_order(order, item, quantity):
     else:
         print(f"Sorry, {item} is not on the menu.")
 
-# Function to view the current order
 def view_order(order):
     if not order:
         print("Your order is currently empty.")
@@ -35,14 +31,12 @@ def view_order(order):
         for item, quantity in order.items():
             print(f"{item}: {quantity}")
 
-# Function to calculate the total cost of the order
 def calculate_total(order):
     total = 0.0
     for item, quantity in order.items():
         total += menu[item] * quantity
     return total
 
-# Main function to run the program
 def main():
     order = {}
     while True:

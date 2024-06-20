@@ -1,4 +1,4 @@
-import numpy as np
+import numpques15y as np
 
 def multiply_matrices(A, B):
     result = np.dot(A, B)

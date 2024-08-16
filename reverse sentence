@@ -1,0 +1,6 @@
+//You are given a string representing a sentence, where each word is separated by a single space. Write a TypeScript function called reverseWords that reverses the order of the words in the sentence.
+//The words themselves should not be reversed, only their order in the sentence should be.
+
+const sentence = "Hello world this is TypeScript";
+const result = reverseWords(sentence);
+console.log(result); 

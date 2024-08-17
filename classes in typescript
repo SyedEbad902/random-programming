@@ -1,0 +1,27 @@
+interface Person {
+  name: string;
+  age: number;
+}
+
+type Employee = {
+  name: string;
+  age: number;
+  position: string;
+}
+
+// Usage of interface for class implementation
+class Manager implements Person {
+  name: string;
+  age: number;
+  constructor(name: string, age: number) {
+    this.name = name;
+    this.age = age;
+  }
+}
+
+// Usage of type for defining complex types
+const john: Employee = {
+  name: "John",
+  age: 30,
+  position: "Developer",
+};

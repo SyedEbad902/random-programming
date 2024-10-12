@@ -9,7 +9,6 @@ type Employee = {
   position: string;
 }
 
-// Usage of interface for class implementation
 class Manager implements Person {
   name: string;
   age: number;

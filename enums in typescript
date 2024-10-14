@@ -9,4 +9,3 @@ let dir: Direction = Direction.Up;
 console.log(dir); // Output: 0
 
 console.log(Direction.Up); 
-console.log(Direction.Down); 

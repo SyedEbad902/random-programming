@@ -12,6 +12,7 @@ console.log(myTuple);
 let myTuple: [string, number] = ["typescript", 2024];
 let [language, year] = myTuple;
 
-console.log(language); // Output: "typescript"
-console.log(year); // Output: 2024
-
+console.log(language);
+console.log(year);
+ // Output: "typescript"
+ // Output: 2024

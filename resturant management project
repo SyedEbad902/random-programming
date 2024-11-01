@@ -64,7 +64,7 @@ def main():
                     continue
                 add_to_order(order, item, quantity)
             except ValueError:
-                print("Invalid quantity. Please enter a number.")
+                print("Invalid quantity. Please enter a valid number.")
         elif choice == 3:
             view_order(order)
         elif choice == 4:
